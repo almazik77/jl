@@ -1,0 +1,25 @@
+= Описание API по записям
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+=== отмена
+
+Можно отменить запись
+
+.request
+
+include::{snippets}\cancel_appointment\http-request.adoc[]
+
+.response
+
+include::{snippets}\cancel_appointment\http-response.adoc[]
+
+.response-fields
+
+include::{snippets}\cancel_appointment\response-fields.adoc[]

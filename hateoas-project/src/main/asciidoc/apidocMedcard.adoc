@@ -1,0 +1,25 @@
+= Описание API по мед картам
+
+== Методы
+
+|===
+|Метод | Назначение
+|`PUT`
+|Обновить сущность или ее состояние
+|===
+
+=== подтверждение
+
+Можно сказать что карта действительна
+
+.request
+
+include::{snippets}\confirm_med_card\http-request.adoc[]
+
+.response
+
+include::{snippets}\confirm_med_card\http-response.adoc[]
+
+.response-fields
+
+include::{snippets}\confirm_med_card\response-fields.adoc[]
